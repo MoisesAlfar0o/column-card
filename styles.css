@@ -3,7 +3,6 @@
     --bg-color-cyan: hsl(184, 100%, 22%);
     --bg-color-dark: hsl(179, 100%, 13%);
     --bg-color-light: hsl(0, 0%, 95%);
-
     --ft-size: 15px;
     --ff-family-lexend: 'Lexend Deca', sans-serif;;
     --ff-family-shoulders: 'Big Shoulders Display', sans-serif;
@@ -21,6 +20,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-size: var(--ft-size);
+    background-color: var(--bg-color-light);
 }
 
 *,*::after,*::before{
